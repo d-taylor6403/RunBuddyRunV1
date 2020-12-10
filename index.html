@@ -38,7 +38,40 @@
 
 <!--hero-->
 <section>
+    <div>
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult</p>
+    <!--Add form element-->
+    <form>
+        <!--Name Input-->
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" />
+        <!--Email Input-->
+        <label for="email">Enter email address:</label>
+        <input type="email" placeholder="Your Email" name="email" id="email" />
+        <!--Phone Input-->
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" placeholder="Your Phone Number" name="phone" id="phone" />
+
+        <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no"/>
+            <label for="trainer-no">No</label>
+        </p>
+
+        <p> 
+            <input type="checkbox" name="acknowledge-confirm" id="confirm-yes" />
+            <label for="confirm-yes">I acknowledge that I am at least 18 years of acknowledge</label>
+        </p>
+        <button type="submit">
+            Get Running!
+        </button>
+    </form>
+    </div>
 </section>
+<!--End Hero-->
 
 <!--"what we do" section-->
 <section>
