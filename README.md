@@ -32,12 +32,7 @@ The following steps should be completed to utilize this repo as a template for o
     3. Navigate to the IDE of your choice.
     4. Using CD navigate into the folder of your choice.
     5. Using 'git clone <SSH/HTTP Url> add the cloned repo files to your computer.
-<<<<<<< HEAD
-    6. Make the needed changes.
-    7. Next step input here 
-=======
     
->>>>>>> 4d0e51d661a3202fa4b7eed12c25fb866f921eab
 
 
 ## Usage
