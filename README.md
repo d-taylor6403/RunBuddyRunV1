@@ -19,9 +19,9 @@ The deployed website can be found here: [RunBuddyRun](https://d-taylor6403.githu
 
 ## Technologies Used
 
-<img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/> 
+<img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100" display="inline"/> 
 
-<img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/> 
+<img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100" display="inline"/> 
 
 ## Installation
 
@@ -32,8 +32,12 @@ The following steps should be completed to utilize this repo as a template for o
     3. Navigate to the IDE of your choice.
     4. Using CD navigate into the folder of your choice.
     5. Using 'git clone <SSH/HTTP Url> add the cloned repo files to your computer.
+<<<<<<< HEAD
     6. Make the needed changes.
     7. Next step input here 
+=======
+    
+>>>>>>> 4d0e51d661a3202fa4b7eed12c25fb866f921eab
 
 
 ## Usage
