@@ -19,9 +19,9 @@ The deployed website can be found here: [RunBuddyRun](https://d-taylor6403.githu
 
 ## Technologies Used
 
-<img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/> 
+<img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/> 
 
-<img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/> 
+<img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/> 
 
 ## Installation
 
