@@ -8,6 +8,7 @@
     --primary-color: #fce138;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
+  
   }
   
   body {
@@ -334,6 +335,11 @@
     background: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
+    
+  }
+
+  .trainer:hover .trainer-img::after{
+        opacity: 1;
   }
 
   .trainers{
@@ -344,10 +350,51 @@
     justify-content: space-around;
   }
   
-  .trainer img {
+  .trainer-img {
     width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(252, 225, 56,0.3), var(--secondary-color));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .trainer-img h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    margin-bottom: 5px;
+    top: 200px;
+    transition: 0.6s;
   }
   
+  .trainer-img h4 {
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    top: 200px;
+    transition: 0.6s;
+    transition-delay: .2s;
+  }
+
+  .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+    top: 0;
+  }
+
   .trainer-bio {
     padding: 25px;
     line-height: 1.3;
@@ -355,18 +402,32 @@
   
   .trainer-bio h3 {
     font-size: 28px;
+    display:none;
   }
   
   .trainer-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
+    display:none;
+
   }
   
   .trainer-bio p {
     font-size: 17px;
   }
+  
+  .trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+  }
 
+  .trainer-2{
+    background-image: url("../images/trainer-2.jpg");
+  }
+
+  .trainer-3{
+    background-image: url("../images/trainer-3.jpg");
+  }
   /*UTILITIES BEGIN*/
   
   .text-left {
@@ -436,15 +497,6 @@
     font-weight: bold;
   }
 
-  .box1 {
-
-  }
-
-  .box2 {
-  }
-
-  .box3 {
-  }
 
   /*GRID CONTAINER STYLE END*/
 
@@ -629,7 +681,16 @@
     grid-column: 1 / -1;
     grid-row: -1;
   }
+
+  .trainer-img h3, .trainer-img h4, .trainer-img::after {
+    display: none;
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
+  }
 }
+
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
